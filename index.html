@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Ravindra Kumar | Home</title>
+        <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/nav.css">        
+        <link rel="stylesheet" href="css/timeline.css">
+        <link rel="stylesheet" href="css/skills.css">
+        <link rel="stylesheet" href="css/animation.css">
+        
+        
+    </head>
+    <body>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#home-link" onclick="closeNav()" >Home</a>
+                <a href="#about" onclick="closeNav()">About</a>
+                <a href="#education" onclick="closeNav()">Education</a>
+                <a href="#projects" onclick="closeNav()">Projects</a>
+                <a href="#skills" onclick="closeNav()">Skills</a>
+                <a href="#contact" onclick="closeNav()">Contact</a>
+            </div>
+        </div>
+
+        <span id="navigation" onclick="openNav()">&#9776; <Strong>Ravindra</Strong></span>
+        <div class="home" id="home-link">
+            <css-doodle grid="35x1">
+                :doodle {
+                    @grid: 4 / 100vmax;
+                    background:  #0a0c27;
+                    min-height: 600px;
+                }
+                @shape: infinity 10 ;
+                background: hsla(
+                    calc(300 - @index() * 5),
+                    60%, 70%, @rand(.8)
+                );
+                transform:
+                    scale(@rand(.1, 0.6))
+                    translate(
+                    @rand(-50%, 50%), @rand(-20%, 20%)
+                    );
+              </css-doodle>
+
+
+
+
+
+   
+            
+            <div class="home-content">
+                <img src="media/Ravindra.jpeg" style="width:150px">
+                <h1 > <span class="name">H</span>i, I'm 
+                    <span class="name">Ravindra Kumar</span></h1>
+                <p >Programmer | Full Stack Developer </p>
+                <a class="head-a" href="#about">Want to know more!!</a> <br>
+                <div class="links">
+                    <a class="fa fa-github" href="https://github.com/steven3219" ></a>
+                    <a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/ravindra-kumar-775a00191/" ></a>
+                    <a class="fa fa-twitter-square" href="https://twitter.com/ravi7154" ></a>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div id="about" >
+            <div class="about-content">
+                <h1>About me</h1>
+                <p>My name is Ravindra Kumar. I'm a pre-final year student at <strong>IET LUCKNOW</strong>. 
+                I'm pursuing B.Tech in Computer Science and engineering. </p>
+                <p>I'm a competitive programmer. I love writing code and attend programming contest. I'm good
+                    in C, C++, and JAVA. I have some projects in PHP. I also have interest in
+                    Software development. I love open source contributions and want to 
+                    contribute as much as I can.   
+                </p>
+                <br>
+                <a href="media/Resume.pdf" download>Download Resume </a>
+                
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+
+        <div id="resume" >  
+            <div class="resume-content">
+                <h1 style="text-align:center;color:#FF7E00;" id="education">EDUCATION</h1>
+
+                <div class="timeline">
+
+                    <div class="container left">
+                        <div class="content">
+                            
+                            <h3  >Institute of Engineering & Technology, Lucknow</h3>
+                            <h4 id="time-duration" >July / 2017 - Present</h4>
+                            <p>Bachelor of Technology, Compute Science and Engineering.</p>
+                            <h4 style="color:  #808080;" >CPI: 7.71(Till 5th semeseter)</h4>
+                        </div>
+                    </div>
+
+                    <div class="container right">
+                        <div class="content">
+                            
+                            <h3>D. V. Inter College, Dhanghata, Sant Kabir Nagar</h3>
+                            <h4 id="time-duration" >July / 2014 - June / 2016</h4>
+                            <p>Senior Secondary Examination- Class XII</p>
+                            <h4 style="color: #808080;">Percentage: 91.80</h4>
+                        </div>
+                    </div>
+
+                    <div class="container left">
+                        <div class="content">
+                            
+                            <h3>D. V. Inter College, Dhanghata, Sant Kabir Nagar</h3>
+                            <h4 id="time-duration" >July / 2012 - June / 2014</h4>
+                            <p>Higher Secondary Examination- Class X</p>
+                            <h4  style="color: #808080;" >Percentage: 86.00</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <h1 style="text-align:center;color:#FF7E00;" id="projects">PROJECTS</h1>
+
+                <div class="timeline">
+
+                    <div class="container right">
+                        <div class="content">
+                            <h2 >Online examination Portal</h2>
+                            <ul>
+                                <li><span>Developed an online examination portal through which companies can set question paper & student can give online test. </span></li>
+                                <li><span>Website: e-exam-jaspers.000webhostapp.com</span></li>
+                                <li><span>Technologies Used: HTML, CSS, BOOTSTRAP, JavaScript, PHP</span></li>
+                            </ul> 
+                            <a class="fa fa-github" style="font-size:36px;text-decoration:none;color: #4e4e50;" 
+                            href="https://github.com/sandeep021/e-exam"></a>
+                        </div>
+                    </div>
+
+                    <div class="container left">
+                        <div class="content">
+                            <h2 >mYservice.com</h2>
+                            <ul>
+                                <li><span>Developed an online service portal through which user can complain related to products online. </span></li>                                
+                                <li><span>Technologies Used: HTML, CSS, BOOTSTRAP, JavaScript, PHP</span></li>
+                            </ul> 
+                            <a class="fa fa-github" style="font-size:36px;text-decoration:none;color: #4e4e50;" 
+                            href="https://github.com/steven3219/mYservice.com"></a>
+                        </div>
+                    </div>
+
+                    <div class="container right">
+                        <div class="content">
+                            <h2 >Music collection</h2>
+                            <ul>
+                                <li><span>Developed a music website through which user can listen and download song. </span></li>
+                                <li><span>User can listen top 10 songs of different genre voted by the user.</span></li>
+                            </ul>                            
+                            <a class="fa fa-github" style="font-size:36px;text-decoration:none;color: #4e4e50;" 
+                            href="https://github.com/steven3219/music-collection-website"></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <h1 style="text-align:center;color:#FF7E00;">ACHIEVEMENTS</h1>
+
+                 <div class="timeline">
+
+                    <div class="container left">
+                        <div class="content">
+                            <h2 >NPTEL Certification</h2>
+                            <p>NPTEL Certified in Design & Analysis of Algorithm (Silver).</p>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="container right">
+                        <div class="content">
+                            <h2  >Others</h2>
+                            <ul>
+                                <li>Secured Rank 1587 in Code chef September Long Challenge</li>                                
+                                <li>Volunteer in College Festival Pravah year 2018 AKTU Lucknow.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <br>
+                    <br>
+                    <br>
+
+                </div>
+
+            </div>
+        </div>
+        <div id="skills" > 
+            <div id="skill-content">
+
+                <h1 style="text-align:center;color:#1fa9ab;margin-top: 50px;">Skills</h1>
+
+                <h2 style="text-align:center;color:#4e4e50;">My few skills are listed below 
+                    along with proficiency in them.</h2>
+                
+                <p><strong>ALGORITHMS</strong></p>
+                <div class="skill-container">
+                    <div class="skills-bar algorithm">70%</div>
+                </div>
+
+                <p><strong>DATA STRUCTURES</strong></p>
+                <div class="skill-container">
+                    <div class="skills-bar data-structure">75%</div>
+                </div>
+
+                <p><strong>C & C++</strong></p>
+                <div class="skill-container">
+                    <div class="skills-bar cpp">75%</div>
+                </div>
+
+                <p><strong>JAVA</strong></p>
+                <div class="skill-container">
+                    <div class="skills-bar java">60%</div>
+                </div>
+
+                <p><strong>WEB DEVELOPEMENT</strong></p>
+                <div class="skill-container">
+                    <div class="skills-bar web">60%</div>
+                </div>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+            </div>
+        </div>
+
+        <div id="contact" >  
+            <div id="contact-content">
+                <h1 style="text-align:center;margin-top: 50px;">CONTACT</h1>
+                <p><strong>Don't be shy!!!, If you wanna say something or work together 
+                    just drop a mail.</strong></p>
+                <br>
+                <a href="mailto:itsravindra71@gmail.com"target="_top"><strong>itsravindra71@gmail.com</strong></a>
+
+                <br>
+                <br>
+                <br>
+                
+
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footer-content">
+
+                <div>
+                    <p>&copy; Ravindra 2020 &emsp; | &emsp; <span class="fa fa-code" style="font-size:24;"></span> 
+                        with <span class="fa fa-heart" style="font-size:24;" ></span> 
+                        by<a href="https://github.com/steven9473"> Ravindra Kumar </a> &emsp; </p>
+                </div>
+
+                <div>
+                    &emsp;
+                    &emsp;
+                    &emsp;
+                    <a class="fa fa-github" style="font-size:20px" href="https://github.com/steven3219" ></a>
+                    &emsp;
+                    <a class="fa fa-linkedin-square" style="font-size:20px" href="https://www.linkedin.com/in/ravindra-kumar-775a00191/" ></a>
+                    &emsp;
+                    <a class="fa fa-twitter-square" style="font-size:20px" href="https://twitter.com/ravi7154" ></a>                
+                                        
+                </div>
+            </div>
+            <br>
+            <div>
+                <p style="color:rgba(174, 172, 251, .62);">Still Under Developement.</p>
+            </div>
+            
+        </div>
+    </body>
+
+    <!-- Java Script ================================================== -->
+    <script src="js/nav.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.2.3/css-doodle.min.js"></script>
+</html>
